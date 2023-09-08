@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:xebia_delivery/gen/assets.gen.dart';
 import 'package:xebia_delivery/responsive/colors_applied.dart';
+import 'package:xebia_delivery/responsive/components/five_icon_desktop_tablet.dart';
 import 'package:xebia_delivery/responsive/components/full_body.dart';
 import 'package:xebia_delivery/responsive/components/full_side_menu.dart';
 
@@ -73,14 +74,19 @@ class MobileScaffold extends StatelessWidget {
         ),
       ),
       body: SafeArea(
-        child: Expanded(
-          child: ListView(
-            children: const <Widget>[
-              FullBody(
-                type: 'mobile',
+        child: Column(
+          children: [
+            Expanded(
+              child: ListView(
+                children: const <Widget>[
+                  FullBody(
+                    type: 'mobile',
+                  ),
+                ],
               ),
-            ],
-          ),
+            ),
+            const SizedBox(height: 45, child: FiveIconRows()),
+          ],
         ),
       ),
     );
