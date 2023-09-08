@@ -41,17 +41,17 @@ class StackProfileImage extends StatelessWidget {
                   ),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withOpacity(0.5), 
-                      spreadRadius: 2, 
-                      blurRadius: 5, 
-                      offset: const Offset(0, 2), 
+                      color: Colors.grey.withOpacity(0.5),
+                      spreadRadius: 2,
+                      blurRadius: 5,
+                      offset: const Offset(0, 2),
                     ),
                   ],
                 ),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(50.0),
                   child: Image.asset(
-                    'assets/png/HackerRank.png', 
+                    'assets/png/HackerRank.png',
                     fit: BoxFit.cover,
                   ),
                 ),

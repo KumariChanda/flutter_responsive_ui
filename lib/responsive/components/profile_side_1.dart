@@ -62,9 +62,16 @@ class ProfileSide1 extends StatelessWidget {
                       ),
                       Positioned(
                         top: 5,
-                        child: SizedBox(
-                          height: 25,
-                          width: 25,
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(50.0),
+                            border: Border.all(
+                              color: Colors.white,
+                              width: 3.0,
+                            ),
+                          ),
+                          height: 27,
+                          width: 27,
                           child: ClipRRect(
                             borderRadius: const BorderRadius.all(
                               Radius.circular(50.0),
