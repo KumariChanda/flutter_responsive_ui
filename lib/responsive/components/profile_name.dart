@@ -23,7 +23,7 @@ class ProfileName extends StatelessWidget {
               ),
             ),
             SizedBox(
-              width: MediaQuery.of(context).size.width * 0.2,
+              width: MediaQuery.of(context).size.width * 0.5,
               child: RichText(
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
