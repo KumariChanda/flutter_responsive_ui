@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "de6414a6ea632b21e338eb7674fb3328f21d024f8ffa35c837f553d2bfa489f2"
+build_start_time: [1694165031, 692122936]
+build_end_time: [1694165031, 741935014]
+inputs:
+  "/Users/chanda.kumari/Documents/Xebia/chanda/flutterSocial/macos/Flutter/GeneratedPluginRegistrant.swift": !private [1694165014, 176113367]
+  "/Users/chanda.kumari/Documents/Xebia/chanda/flutterSocial/macos/Runner/AppDelegate.swift": !private [1669220596, 0]
+  "/Users/chanda.kumari/Documents/Xebia/chanda/flutterSocial/macos/Runner/MainFlutterWindow.swift": !private [1690906270, 961815834]
