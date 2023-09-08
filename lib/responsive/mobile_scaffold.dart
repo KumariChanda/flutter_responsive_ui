@@ -85,7 +85,7 @@ class MobileScaffold extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(height: 45, child: FiveIconRows()),
+            const SizedBox(height: 50, child: FiveIconRows()),
           ],
         ),
       ),
